@@ -1,5 +1,5 @@
 ﻿
-internal class Shape
+abstract class Shape
 {
     private string id;
     private string name;
@@ -21,9 +21,9 @@ internal class Shape
         this.color = color;
     }
 
-    public decimal CalculateArea(decimal length, decimal width)
+    public decimal CalculateArea()
     {
-        return length * width;
+        return 0;
     }
 
 }
